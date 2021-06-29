@@ -9,13 +9,10 @@ let num = scanf("%d");
 let str = "";
 for(let i = 0; i < num + (num-1); i++){
     for(let j = 0; j < num + (num-1); j++){
-        if( j == num-1 ||
-            i == num-1 ||
-            (   i + j >= num-1 &&
-                j - i <= num-1 &&
-                i - j <= num-1 &&
-                i + j <= (num-1) * 3
-            )
+        if( i + j >= num-1 &&
+            j - i <= num-1 &&
+            i - j <= num-1 &&
+            i + j <= (num-1) * 3
         ){
             str += "O "
         } else{
