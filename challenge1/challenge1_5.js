@@ -1,5 +1,10 @@
+const scanf = require('scanf');
+
 // input
-let num = 6;
+// let num = 6;
+
+console.log("Enter Number:");
+let num = scanf("%d");
 
 let str = "";
 for(let i = 0; i < num; i++){
