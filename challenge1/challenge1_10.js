@@ -1,7 +1,5 @@
-// there are 2 cases: odd & even input
-
 // input
-let num = 4;
+let num = 5;
 
 let str = "";
 for(let i = 0; i < num + (num-1); i++){
