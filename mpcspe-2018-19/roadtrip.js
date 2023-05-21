@@ -65,7 +65,6 @@ let C_now = S;
 let T_now = 0;
 
 do {
-    console.log(C_now);
     cities[C_now].v = cities[C_now].t + T_now;
     T_now = cities[C_now].v;
 
