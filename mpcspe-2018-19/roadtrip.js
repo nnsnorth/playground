@@ -98,7 +98,7 @@ do {
         let shortest_d = road_options[0].d;
         road_options = road_options.filter((road) => road.d == shortest_d);
 
-        //sort for choose city with lowest number
+        //sort and choose city with lowest number
         road_options.sort((road_a, road_b) => road_a.c_dest - road_b.c_dest);
 
         C_trip.push(cities[road_options[0].c_dest].s);
